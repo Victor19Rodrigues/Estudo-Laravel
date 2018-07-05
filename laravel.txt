@@ -1,0 +1,28 @@
+Instalação do laravel:
+composer create-project --prefer-dist laravel/laravel lista
+
+**Laravel utiliza o template engine: tranformador de código
+****estudar artisan
+****estudar eloquent
+****Sistema CSRF: proteção contra ataques
+
+
+**Criar arquivo Model com o mesmo nome da tabela do banco
+
+
+
+Arquivos de configuração:
+
+- .env: arquivo que contém configuração de URL, banco de dados
+
+Pastas:
+- app (boa parte da aplicação fica aqui!):
+	- Http:
+		- Controllers: onde ficam os controllers
+	- User.php: seria o model de exemplo
+- config:
+- public (pasta principal do projeto, somente ela é acessível ao servidor, ou seja, as outras pastas ficam 'por trás'):
+- resources:
+	- views: onde ficam as views
+- routes:
+	- web.php: cuida das rotas da aplicação

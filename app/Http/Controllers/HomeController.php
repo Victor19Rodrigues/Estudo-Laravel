@@ -73,5 +73,9 @@ class HomeController extends Controller{
 
 		return redirect('/');
 	}
+
+	public function contato(){
+		return view('contato');
+	}
 }
 ?>

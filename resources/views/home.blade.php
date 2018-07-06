@@ -1,3 +1,7 @@
+@extends('template')
+
+@section('content')
+
 <h1>Lista de Tarefas</h1>
 
 <!-- 
@@ -22,3 +26,5 @@
 	<input type="text" name="item">
 	<input type="submit" value="+" name="">
 </form>
+
+@endsection

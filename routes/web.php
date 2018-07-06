@@ -25,3 +25,4 @@ Route::get('/', 'HomeController@home');
 
 Route::post('/', 'HomeController@add');
 Route::get('/delete/{id}', 'HomeController@del');
+Route::get('/contato', 'HomeController@contato');
